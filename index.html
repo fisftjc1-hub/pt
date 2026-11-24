@@ -285,20 +285,20 @@ button.small{font:inherit;font-size:15px;padding:4px 14px;border:1px solid var(-
  <div class="layer" id="L-flow"><div class="slide">
   <div class="txt">
    <div class="t" data-s="flow1"><div class="kicker">我們的服務</div><h2>調查分成三個階段</h2>
-    <p><strong>初篩報告</strong>：拿到電腦後快速產出，判斷值不值得深入、要往哪裡查。</p>
-    <p><strong>進階調查</strong>：由分析師針對您關心的問題深入。</p>
+    <p><strong>初篩報告</strong>：拿到電腦後快速產出，幫您決定先看哪裡、先查什麼。</p>
+    <p><strong>進階分析</strong>：由分析師完整分析，從您最關心的問題開始，找出初篩看不到的資訊。</p>
     <p><strong>正式鑑識報告</strong>：經過完整程序，可以用在懲處、求償或訴訟。</p>
     <p class="mute">今天先體驗初篩報告，再和分析師開會。</p></div>
    <div class="t" data-s="flow3"><div class="kicker">第三幕</div><h2>初篩報告可以直接用在懲處或訴訟嗎？</h2>
-    <p>初篩報告標示「未經分析師覆核」，用途是決定調查方向。要作為正式證據，需要經過正式的鑑識程序：</p>
+    <p>初篩報告標示「未經分析師覆核」，用途是排定調查的先後。要作為正式證據，需要經過正式的鑑識程序：</p>
     <p>覆核每一筆紀錄、計算並記錄證物的雜湊值、記錄證物從取得到提出的每一次經手。</p></div>
    <div class="t" data-s="flow0"><div class="kicker">收尾</div><h2>我們可以怎麼協助</h2>
-    <p>從快速判斷方向，到可以拿上法庭的報告，三個階段可以依您的需要選擇。</p>
+    <p>初篩報告排定先後，進階分析依序完整檢查；需要用在懲處、求償或訴訟時，再出具正式鑑識報告。</p>
     <p>聯絡我們：<span class="mute">【聯絡窗口與方式待補】</span></p></div>
   </div>
   <div class="vis"><div class="flow" id="flow"><div class="pipe"><i id="pipe"></i></div>
-   <div class="st" data-i="1"><b>初篩報告</b><small>快速判斷方向</small><span class="tag">第一幕</span><span class="todo" data-todo>【時程待補】</span></div>
-   <div class="st" data-i="2"><b>進階調查</b><small>分析師深入</small><span class="tag">第二幕</span><span class="todo" data-todo>【時程待補】</span></div>
+   <div class="st" data-i="1"><b>初篩報告</b><small>排定先後</small><span class="tag">第一幕</span><span class="todo" data-todo>【時程待補】</span></div>
+   <div class="st" data-i="2"><b>進階分析</b><small>分析師完整分析</small><span class="tag">第二幕</span><span class="todo" data-todo>【時程待補】</span></div>
    <div class="st" data-i="3"><b>正式鑑識報告</b><small>可供法律程序使用</small><span class="tag">第三幕</span><span class="todo" data-todo>【內容待補】</span></div>
   </div></div>
  </div></div>
@@ -308,14 +308,11 @@ button.small{font:inherit;font-size:15px;padding:4px 14px;border:1px solid var(-
  <div class="layer" id="L-report"><iframe id="rep" title="初篩報告〈電腦行為摘要〉"></iframe></div>
 
  <div class="layer" id="L-decide"><div class="slide">
-  <div class="txt"><div class="t on"><div class="kicker">決策點</div><h2>看完報告，您會怎麼決定？</h2>
-   <p>報告已經指出了方向。如果您真的是這家公司的稽核主管，接下來會怎麼做？</p>
-   <p class="mute">右邊可以直接點選，勾選的問題會帶到第二幕。</p></div></div>
+  <div class="txt"><div class="t on"><div class="kicker">決策點</div><h2>看完報告，您最想先知道什麼？</h2>
+   <p>報告幫您排出了先後。如果您真的是這家公司的稽核主管，最想先請分析師回答哪些問題？</p>
+   <p class="mute">進階分析會完整檢查整台電腦，從您勾選的問題開始。右邊可以直接點選，勾選的問題會帶到第二幕。</p></div></div>
   <div class="vis"><div class="form">
-   <div class="h">您的決定</div>
-   <label><input type="radio" name="decide" value="stop">到這裡就夠了，報告已經足以處理</label>
-   <label><input type="radio" name="decide" value="go">需要進一步調查</label>
-   <div class="h">您最想知道哪些事？（可以複選）</div>
+   <div class="h">您最想先知道哪些事？（可以複選）</div>
    <div id="wants">
    <label><input type="checkbox" value="mail">壓縮檔有沒有被寄出去、上傳到雲端？</label>
    <label><input type="checkbox" value="net">公司電腦是怎麼連上網的？</label>
@@ -453,9 +450,9 @@ button.small{font:inherit;font-size:15px;padding:4px 14px;border:1px solid var(-
  <div class="layer" id="L-check"><div class="slide">
   <div class="txt"><div class="t on"><div class="kicker">帶回公司</div><h2>遇到類似狀況，第一步可以做什麼</h2><p>這四件事，越早做，能回答的問題越多。</p></div></div>
   <div class="vis"><div class="check">
-   <div class="rv" style="--d:1"><b>先保全，不要自己查</b><span>交還的電腦不要開機翻看，也不要重灌或交給下一位同事。開機和開檔都會改變紀錄。</span></div>
+   <div class="rv" style="--d:1"><b>先保全，不要自己查</b><span>相關的電腦和裝置都先保全，包括看起來沒有問題的。不要開機翻看，也不要重灌或交給下一位同事，開機和開檔都會改變紀錄。</span></div>
    <div class="rv" style="--d:2"><b>留下周邊證據</b><span>員工交出的隨身碟、光碟，交接與門禁紀錄，都先保存下來。</span></div>
-   <div class="rv" style="--d:3"><b>先想清楚要回答什麼</b><span>問題越明確，調查越快、越省成本。</span></div>
+   <div class="rv" style="--d:3"><b>先想清楚要回答什麼</b><span>問題越明確，越能排出先查什麼。</span></div>
    <div class="rv" style="--d:4"><b>盡早聯絡鑑識人員</b><span>越早處理，能保全的證據越多。</span></div>
   </div></div>
  </div></div>
@@ -19872,11 +19869,11 @@ window.FTVizData={mode:"management",cats:[
     {ch:0, layer:'flow', s:'flow1', flow:1},
     {ch:1, layer:'act1'},
     {ch:1, layer:'report', target:'header', html:'<div class="kicker">報告送到了</div><h2>這是這台電腦的初篩報告</h2><p>最上面是基本資料、閱讀提示，以及一排統計數字：上過幾個網站、開過幾份文件、接過幾台外接裝置。</p><p class="mute">這台電腦是簡體中文環境，所以檔名是簡體字。</p>'},
-    {ch:1, layer:'report', target:'flags', html:'<div class="kicker">任務 1</div><h2>只花五分鐘：這台電腦需要擔心嗎？</h2><p>「值得注意的行為」依照預先定義的規則，列出值得留意的紀錄，每條前面標著高、中、低。</p>'},
+    {ch:1, layer:'report', target:'flags', html:'<div class="kicker">任務 1</div><h2>只花五分鐘：應該先從哪裡看起？</h2><p>「值得注意的行為」依照預先定義的規則，列出值得留意的紀錄，每條前面標著高、中、低。</p>'},
     {ch:1, layer:'report', target:'flags-high', html:'<p>兩條標為「高」：<strong>隨身碟上</strong>和<strong>光碟上</strong>，都出現了 JMXM 的文件。</p>'},
     {ch:1, layer:'report', target:'timeline', html:'<p>「重點時間線」把這些紀錄依時間排成一張表。請留意時間的範圍。</p>'},
-    {ch:1, layer:'report', target:'free:flags', free:true, html:'<span class="you">換您看看</span><p>報告可以自由捲動、點選。憑直覺判斷：這台電腦需要擔心嗎？哪一條最讓您在意？</p>' + TIMER},
-    {ch:1, layer:'report', target:'timeline', html:'<div class="kicker">我們的解讀</div><p>需要。11 條規則裡有 2 條是「高」，而且全部集中在離職當天下午 <strong>14:15 到 15:43</strong>。</p>' + DAY + '<div class="value">不用讀完整份報告，五分鐘就能判斷值得深入，也知道往哪裡查。</div><p class="mute">報告也註明：每一條只表示留有紀錄，不代表已確認原因或目的。</p>'},
+    {ch:1, layer:'report', target:'free:flags', free:true, html:'<span class="you">換您看看</span><p>報告可以自由捲動、點選。憑直覺判斷：應該先從哪裡看起？哪一條最讓您在意？</p>' + TIMER},
+    {ch:1, layer:'report', target:'timeline', html:'<div class="kicker">我們的解讀</div><p>先看離職當天下午 <strong>14:15 到 15:43</strong>。11 條規則裡有 2 條是「高」，而且全部集中在這段時間。</p>' + DAY + '<div class="value">不用讀完整份報告，五分鐘就知道先從哪裡查。</div><p class="mute">報告也註明：每一條只表示留有紀錄，不代表已確認原因或目的。報告只檢查預先定義的規則，沒有標出來的不代表沒有發生，進階分析仍會完整檢查。</p>'},
     {ch:1, layer:'report', target:'foot', html:'<div class="kicker">任務 2</div><h2>機密資料去了哪些地方？</h2><p>報告的「檔案足跡」，把同一個檔名在不同位置出現的紀錄串在一起。每張卡片是一份文件，箭頭表示時間的先後。</p>'},
     {ch:1, layer:'report', target:'foot-1', html:'<p><code>JMXM010-技术资料-配方.doc</code>：14:17 從公司伺服器開啟，15:12 出現在一個壓縮檔裡。本機 D 槽也有一份，已經被刪除。</p>'},
     {ch:1, layer:'report', target:'foot-2', html:'<p><code>JMXM021-技术资料-项目概况.doc</code>：14:38 出現在隨身碟上，15:35 又出現在光碟上。</p>'},
@@ -19888,7 +19885,7 @@ window.FTVizData={mode:"management",cats:[
     {ch:1, layer:'report', target:'dl-zip', html:'<p>15:08 下載了雲端硬碟程式「百度雲管家」的安裝檔；15:12，D 槽出現一個壓縮檔 <code>重要资料.rar</code>，裡面是 JMXM010 的三份技術資料。</p>'},
     {ch:1, layer:'report', target:'end', html:'<p>15:42，郵件程式和雲端程式的桌面捷徑被移入資源回收筒；一分鐘後，15:43 關機。</p>'},
     {ch:1, layer:'report', target:'free:flags', free:true, html:'<span class="you">換您看看</span><p>回到「值得注意的行為」和「重點時間線」，把這一個半小時從頭看一遍。</p>' + TIMER},
-    {ch:1, layer:'report', target:'timeline', html:'<div class="kicker">我們的解讀</div><p>私接隨身碟、連上網際網路，兩條公司規定都有違反的紀錄。報告也把「下載傳輸軟體、出現壓縮檔、刪除程式捷徑、隨即關機」這一串組合標了出來。</p><div class="value">違規的事實、時間、裝置序號，報告都直接列出，可以作為內部處理的依據。</div><p>不過，郵件和雲端程式寄了什麼、傳了什麼，公司電腦又是怎麼連上網的，報告沒有回答。</p>'},
+    {ch:1, layer:'report', target:'timeline', html:'<div class="kicker">我們的解讀</div><p>私接隨身碟、連上網際網路，兩條公司規定都有違反的紀錄。報告也把「下載傳輸軟體、出現壓縮檔、刪除程式捷徑、隨即關機」這一串組合標了出來。</p><div class="value">可能違規的時間、裝置序號，報告都直接列出，讓您第一時間知道要先確認哪些事。</div><p>至於郵件和雲端程式寄了什麼、傳了什麼，公司電腦又是怎麼連上網的，要由進階分析來回答。</p>'},
     {ch:2, layer:'decide'},
     {ch:3, layer:'act2', gate:true},
     {ch:3, layer:'report', target:'flags-transfer', html:'<span class="an-tag">問題 1</span><h2>壓縮檔有沒有被寄出去、上傳到雲端？</h2><p>報告的線索：電腦上出現壓縮檔、執行了郵件程式、下載了雲端程式，而且幾乎發生在同一個時間。</p>'},
