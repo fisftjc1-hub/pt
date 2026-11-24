@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="zh-Hant-TW">
+<html lang="zh-Hant-TW" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>一台離職員工的電腦</title>
 <style>
 :root{--bg:#f4f1ea;--card:#fff;--ink:#1d2127;--mute:#5f6670;--line:#dcd8cf;--accent:#c9960a;--accent2:#8a6a00;--glow:#f2b705;--ok:#1f7a3f;--an:#3b5b9a;--anbg:#e8eef9;--bad:#b42318;--soft:#ece8de;--stage:#e8e4da;--shadow:0 10px 30px rgba(20,22,26,.14)}
@@ -205,7 +206,6 @@ code{font-family:Consolas,"Cascadia Mono",monospace;font-size:.88em;background:v
 .jump button[disabled]:hover{background:transparent}
 .jump button i{font-style:normal;color:var(--mute);font-variant-numeric:tabular-nums;font-size:13px;padding-top:2px}
 button.small{font:inherit;font-size:15px;padding:4px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
-@media (prefers-reduced-motion:reduce){*,*::before{transition:none!important;animation:none!important}}
 @media (max-width:900px){
  body{font-size:16px}
  .top .ttl{display:none}
@@ -19855,7 +19855,7 @@ window.FTVizData={mode:"management",cats:[
 <script>
 (function(){
   var UNLOCK_CODE = '0430';
-  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reduce = false; /* 簡報用：不跟隨系統的「減少動畫」設定 */
   var TIMER = '<div class="ring"><svg viewBox="0 0 36 36"><circle class="bg" cx="18" cy="18" r="15"/><circle class="fg" cx="18" cy="18" r="15" stroke-dasharray="94.25" stroke-dashoffset="0"/></svg><button type="button" class="small tbtn">開始計時 5 分鐘</button><span class="tleft"></span></div>';
   var DAY = '<div class="day"><svg viewBox="0 0 480 64" aria-hidden="true"><rect x="0" y="22" width="480" height="14" rx="7" fill="var(--soft)"/><rect class="win" x="285" y="22" width="0" height="14" rx="4" fill="var(--glow)"/><g font-size="12" fill="var(--mute)"><text x="0" y="56">0:00</text><text x="114" y="56">6:00</text><text x="234" y="56">12:00</text><text x="354" y="56">18:00</text><text x="452" y="56">24:00</text></g><text x="285" y="14" font-size="12" fill="var(--ink)" font-weight="700">14:15～15:43</text></svg></div>';
   var S = [
